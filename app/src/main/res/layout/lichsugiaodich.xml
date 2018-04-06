@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:background="#333366">
+            <Button
+                android:layout_marginLeft="200px"
+                android:layout_width="900px"
+                android:layout_height="match_parent"
+                android:text="Lịch sữ chi tiêu"
+                android:textSize="80px"
+                android:textColor="#FFFFFF"
+                android:background="#333366"/>
+            <Button
+                android:id="@+id/btn_themTaiKhoan"
+                android:layout_width="200px"
+                android:layout_height="match_parent"
+
+                android:background="#333366"/>
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="200px">
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lvlichsugiaodich">
+            </ListView>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_marginTop="10px"
+            app:srcCompat="@android:drawable/ic_menu_revert" />
+    </RelativeLayout>
+
+</RelativeLayout>

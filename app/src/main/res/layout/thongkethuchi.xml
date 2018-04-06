@@ -1,0 +1,308 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:background="#333366">
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="THỐNG KÊ CHI TIÊU"
+            android:textSize="80px"
+            android:textColor="#FFFFFF"
+            android:background="#333366"/>
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="1080px"
+        android:layout_height="250px"
+        android:layout_marginTop="300px">
+        <ImageView
+
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginTop="20px"
+            android:src="@drawable/day" />
+        <TextView
+            android:id="@+id/txt_ngay"
+            android:layout_width="500px"
+            android:layout_height="50px"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="200px"
+
+            android:textColor="#333366"
+            />
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="50px"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="80px"
+            android:text="THU"
+            android:textColor="#333366"/>
+        <TextView
+            android:id="@+id/tv_thuNgay"
+            android:layout_width="0px"
+            android:layout_height="30px"
+            android:layout_marginTop="90px"
+            android:layout_marginLeft="300px"
+            android:background="#333366"/>
+
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="50px"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="160px"
+            android:text="CHI"
+            android:textColor="#333366"/>
+        <TextView
+            android:id="@+id/tv_chiNgay"
+            android:layout_width="0px"
+            android:layout_height="30px"
+            android:layout_marginTop="170px"
+            android:layout_marginLeft="300px"
+
+
+            android:background="#FF0000"/>
+        <TextView
+            android:id="@+id/txtsotienthungay"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:layout_marginLeft="730px"
+            android:layout_marginTop="70px"
+            android:text="0"
+            android:textColor="#333366"/>
+        <TextView
+            android:id="@+id/txtsotienchingay"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:layout_marginLeft="730px"
+            android:layout_marginTop="170px"
+            android:text="500000"
+            android:textColor="#333366"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="1080px"
+        android:layout_height="250px"
+        android:layout_marginTop="600px">
+        <ImageView
+
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginTop="20px"
+            android:src="@drawable/mouth" />
+        <TextView
+            android:id="@+id/txt_thang"
+            android:layout_width="500px"
+            android:layout_height="50px"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="200px"
+
+            android:textColor="#333366"
+            />
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="50px"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="80px"
+            android:text="THU"
+            android:textColor="#333366"/>
+        <TextView
+            android:id="@+id/tv_thuThang"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90px"
+            android:layout_marginLeft="300px"
+            android:width="400px"
+            android:height="30px"
+            android:background="#333366"/>
+
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="50px"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="160px"
+            android:text="CHI"
+            android:textColor="#333366"/>
+        <TextView
+            android:id="@+id/tv_chiThang"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170px"
+            android:layout_marginLeft="300px"
+            android:width="400px"
+            android:height="30px"
+            android:background="#FF0000"/>
+        <TextView
+            android:id="@+id/txttongthutheothang"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:layout_marginLeft="730px"
+            android:layout_marginTop="70px"
+            android:text="0"
+            android:textColor="#333366"/>
+        <TextView
+            android:id="@+id/txttongchitheothang"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:layout_marginLeft="730px"
+            android:layout_marginTop="170px"
+            android:text="500000"
+            android:textColor="#333366"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="1080px"
+        android:layout_height="250px"
+        android:layout_marginTop="900px">
+        <ImageView
+
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginTop="20px"
+            android:src="@drawable/year" />
+        <TextView
+            android:id="@+id/txt_nam"
+            android:layout_width="500px"
+            android:layout_height="50px"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="200px"
+
+            android:textColor="#333366"
+            />
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="50px"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="80px"
+            android:text="THU"
+            android:textColor="#333366"/>
+        <TextView
+            android:id="@+id/tv_thuNam"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90px"
+            android:layout_marginLeft="300px"
+            android:width="400px"
+            android:height="30px"
+            android:background="#333366"/>
+
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="50px"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="160px"
+            android:text="CHI"
+            android:textColor="#333366"/>
+        <TextView
+            android:id="@+id/tv_chiNam"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170px"
+            android:layout_marginLeft="300px"
+            android:width="400px"
+            android:height="30px"
+            android:background="#FF0000"/>
+        <TextView
+            android:id="@+id/txttongthutheonam"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:layout_marginLeft="730px"
+            android:layout_marginTop="70px"
+            android:text="0"
+            android:textColor="#333366"/>
+        <TextView
+            android:id="@+id/txttongchitheonam"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:layout_marginLeft="730px"
+            android:layout_marginTop="170px"
+            android:text="500000"
+            android:textColor="#333366"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="1080px"
+        android:layout_height="250px"
+        android:layout_marginTop="1200px">
+        <ImageView
+
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginTop="20px"
+            android:src="@drawable/tong" />
+        <TextView
+            android:layout_width="500px"
+            android:layout_height="50px"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="200px"
+            android:text="Toàn bộ chi tiêu"
+            android:textColor="#333366"
+            />
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="50px"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="80px"
+            android:text="THU"
+            android:textColor="#333366"/>
+        <TextView
+            android:id="@+id/tv_thuToanBo"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90px"
+            android:layout_marginLeft="300px"
+            android:width="400px"
+            android:height="30px"
+            android:background="#333366"/>
+
+        <TextView
+            android:layout_width="100px"
+            android:layout_height="50px"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="160px"
+            android:text="CHI"
+            android:textColor="#333366"/>
+        <TextView
+            android:id="@+id/tv_chiToanBo"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170px"
+            android:layout_marginLeft="300px"
+            android:width="400px"
+            android:height="30px"
+            android:background="#FF0000"/>
+        <TextView
+            android:id="@+id/txttongthu"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:layout_marginLeft="730px"
+            android:layout_marginTop="70px"
+            android:text="0"
+            android:textColor="#333366"/>
+        <TextView
+            android:id="@+id/txttongchi"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:layout_marginLeft="730px"
+            android:layout_marginTop="170px"
+            android:text="500000"
+            android:textColor="#333366"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

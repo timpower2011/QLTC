@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:background="#EDEDED"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout2">
+
+
+        <RelativeLayout
+            android:layout_width="300px"
+            android:layout_height="250px"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+            <ImageView
+                android:id="@+id/imgHinhMinhHoa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_marginLeft="320px"
+            android:layout_marginTop="30px">
+            <TextView
+                android:id="@+id/txtTenTaiKhoan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TIEN"
+                android:textColor="#000000"
+                android:textSize="70px"
+
+
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_marginLeft="320px"
+            android:layout_marginTop="125px">
+            <TextView
+                android:id="@+id/txtSoTien"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Còn 2000000"
+                android:textColor="#000000"
+                android:textSize="70px"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/relativeLayout2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+</RelativeLayout>

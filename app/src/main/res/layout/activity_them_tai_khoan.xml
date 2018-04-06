@@ -1,0 +1,262 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="1800px"
+        android:background="#EDEDED"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+
+            android:background="#333366"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/btn_chitien"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+
+                android:background="#333366"
+                android:textColor="#FFFFFF"
+                android:text="THEM TAI KHOAN"
+                android:textSize="80px" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+
+            android:layout_marginTop="780px">
+
+            <Button
+                android:id="@+id/btn_mucchi"
+                android:layout_width="500px"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="#EDEDED"
+                android:gravity="center"
+                android:text="Tên Tài Khoản"
+                android:textSize="50px" />
+
+            <Button
+                android:id="@+id/btn_gotentaikhoan"
+                android:layout_width="580px"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="500px"
+                android:background="#EDEDED"
+                android:gravity="center"
+                android:maxLines="1"
+                android:maxLength="10"
+                android:textColor="#FF2B56"
+                android:textSize="50px" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+
+            android:layout_marginTop="550px">
+
+            <Button
+                android:layout_width="400px"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="#EDEDED"
+                android:gravity="center"
+                android:text="Tài Khoản"
+                android:textSize="50px" />
+
+            <ImageView
+                android:id="@+id/img_minhhoa"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_marginLeft="400px"
+                android:background="#EDEDED"
+                 />
+
+            <Button
+                android:id="@+id/btn_loaitaikhoan"
+                android:layout_width="680px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="650px"
+                android:background="#EDEDED"
+                android:textColor="#FF2B56"
+                android:maxLines="1"
+
+                android:textAlignment="textStart"
+                android:maxLength="10"
+                android:textSize="50px"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250px"
+            android:layout_marginTop="260px"
+            android:background="#EDEDED">
+            <Button
+                android:id="@+id/btn_nhapsotien"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EDEDED"
+                android:layout_marginLeft="40px"
+                android:gravity="center"
+                android:text="Số Tiền "
+                android:textSize="80px"
+                android:textColor="#FF4A6E"
+                android:textAlignment="textStart" />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+
+            android:layout_marginTop="1010px">
+
+            <Button
+                android:layout_width="500px"
+                android:layout_height="match_parent"
+                android:background="#EDEDED"
+                android:gravity="center"
+                android:text="Ghi Chú"
+                android:textSize="50px" />
+
+            <Button
+                android:id="@+id/btn_goGhiChu"
+                android:layout_width="580px"
+                android:layout_height="match_parent"
+                android:background="#EDEDED"
+                android:gravity="center"
+
+                android:textColor="#FF2B56"
+                android:textSize="50px"
+                android:maxLines="1"
+                android:maxLength="15"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+
+            android:layout_marginTop="1250px">
+
+            <Button
+                android:id="@+id/btn_luu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF4A6E"
+                android:gravity="center"
+                android:text="LƯU"
+                android:textSize="90px"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+
+            android:layout_marginTop="1460px">
+
+            <Button
+                android:id="@+id/btn_huybo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C7C7C7"
+                android:gravity="center"
+                android:text="HỦY BỎ"
+                android:textSize="90px"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="430dp"
+
+
+            app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+        <ImageView
+            android:id="@+id/r6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="270dp"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+        <ImageView
+            android:id="@+id/r7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="360dp"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

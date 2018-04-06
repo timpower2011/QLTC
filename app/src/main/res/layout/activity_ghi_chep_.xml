@@ -1,0 +1,224 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="1600dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FAFAFA">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+
+            android:background="#333366">
+
+            <Button
+                android:id="@+id/btn_chitien"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#333366"
+                android:text="THU TIỀN"
+                android:textColor="#FFFFFF"
+                android:textSize="80px" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:layout_marginTop="230px"
+            android:background="#EDEDED">
+
+            <Button
+                android:id="@+id/btn_nhapsotien_thutien"
+                android:layout_width="700dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:background="#EDEDED"
+                android:text="SỐ TIỀN"
+                android:textAlignment="textStart"
+                android:textColor="#FF4A6E"
+                android:textSize="100px" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+
+            android:layout_marginTop="470px"
+            android:id="@+id/relativeLayout3">
+
+            <Button
+                android:id="@+id/btn_mucchi"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="#EDEDED"
+                android:gravity="center"
+                android:text="Mục Thu"
+                android:textSize="50px" />
+
+            <Button
+                android:id="@+id/btn_mucthuchi_thutien"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="500px"
+                android:background="#EDEDED"
+                android:gravity="center"
+
+                android:textColor="#FF2B56"
+                android:textSize="50px" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+
+            android:layout_marginTop="690px">
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="#EDEDED"
+                android:gravity="center"
+                android:text="Diễn Giai"
+                android:textSize="50px" />
+
+            <Button
+                android:id="@+id/btn_diengiai_thutien"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="500px"
+                android:background="#EDEDED"
+                android:gravity="center"
+                android:maxLength="10"
+                android:minLines="1"
+                android:textColor="#FF2B56"
+                android:textSize="50px"
+
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:layout_marginTop="910px">
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="#EDEDED"
+                android:gravity="center"
+                android:text="Vào Tài Khoản"
+                android:textSize="50px" />
+
+            <Button
+                android:id="@+id/btn_vaotaikhoan_thutien"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/btn_soTienConLai"
+                android:background="#EDEDED"
+
+                android:gravity="center"
+                android:textAlignment="textStart"
+                android:textColor="#FF2B56"
+                android:textSize="50px" />
+
+            <Button
+                android:id="@+id/btn_soTienConLai"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+
+
+                android:layout_marginTop="100px"
+                android:background="#EDEDED"
+                android:gravity="center"
+                android:textAlignment="textStart"
+
+                android:textColor="#FF2B56"
+                android:textSize="50px" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+
+            android:layout_marginTop="1130px">
+
+            <Button
+                android:layout_width="500px"
+                android:layout_height="match_parent"
+                android:background="#EDEDED"
+                android:gravity="center"
+                android:text="Ngày"
+                android:textSize="50px" />
+
+            <Button
+                android:id="@+id/btn_ngay_thutien"
+                android:layout_width="580px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="500px"
+
+                android:background="#EDEDED"
+                android:gravity="center"
+                android:textColor="#FF2B56"
+                android:textSize="50px"
+
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="230px"
+
+            android:layout_marginTop="1360px">
+
+            <Button
+                android:id="@+id/btn_ghithutien"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#FF2B56"
+                android:gravity="center"
+                android:text="GHI TIỀN"
+                android:textSize="90px" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="700px">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="1800px"
+        android:background="#EDEDED"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+
+            android:background="#FF0000"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/btn_chitien"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+
+                android:background="#FF0000"
+                android:textColor="#FFFFFF"
+                android:text="CẢNH BÁO"
+                android:textSize="80px" />
+
+
+        </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="1000px">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:text="Việc xóa hay chĩnh sữa dủ liệu tài khoản sẽ không được phục hồi trong tương lai"
+    android:textSize="50px"
+    android:gravity="center"
+    android:textColor="#000000"/>
+    <Button
+        android:id="@+id/btn_dongy"
+        android:layout_width="270px"
+        android:layout_height="120px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="500px"
+        android:background="#FF0000"
+        android:textSize="60px"
+        android:text="đồng ý"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/btn_huybo"
+        android:layout_width="270px"
+        android:layout_height="120px"
+        android:layout_marginLeft="500px"
+        android:textSize="60px"
+        android:background="#87C1FF"
+         android:layout_marginTop="500px"
+        android:text="hủy bỏ"/>
+</RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
